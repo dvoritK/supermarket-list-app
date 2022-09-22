@@ -1,6 +1,7 @@
 import "./App.css";
 import ListItem from "./components/ListItem";
 import { useState } from "react";
+import Counter from "./components/Counter";
 
 function App() {
   let [inputText, setInputText] = useState({
@@ -47,7 +48,9 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Counter numberOfItems={items.length} /> */}
+      <header>
+        <Counter numberOfItems={items.length} />
+      </header>
       <div className="Form">
         <input
           type="text"

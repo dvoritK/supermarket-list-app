@@ -3,7 +3,6 @@
 }
 
 .Form {
-  margin-top: 3rem;
   padding: 6rem 6rem 0 6rem;
   display: grid;
   grid-template-columns: repeat(5, 20rem);
@@ -36,12 +35,14 @@ ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 2rem;
     row-gap: 1rem;
+    padding: 4rem 4rem 0 4rem;
   }
   .btn-submit {
     grid-column: 2/4;
     width: 50%;
     justify-self: center;
     font-size: 1.4rem;
+    margin-top: 1rem;
   }
   ul {
     margin: 2rem 6rem;
@@ -82,6 +83,7 @@ ul {
 @media (max-width: 44em) {
   .Form {
     grid-template-columns: 1fr 1fr;
+    padding: 2rem 2rem 0 2rem;
   }
   .btn-submit {
     font-size: 1.2rem;
