@@ -1,5 +1,5 @@
 import "./App.css";
-// import ListItem from "./components/ListItem";
+import ListItem from "./components/ListItem";
 import { useState } from "react";
 
 function App() {
@@ -88,9 +88,9 @@ function App() {
       <div className="List">
         <ul className="list-item">
           <span className="product-description">
-            {/* {items.map((item, index) => (
+            {items.map((item, index) => (
               <ListItem item={item} key={index} id={index} />
-            ))} */}
+            ))}
           </span>
         </ul>
       </div>
